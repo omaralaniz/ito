@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ito.sh</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/Subtract.png">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="header">
+      <p id="racing">ito.sh</p>
+      <p id="subhead">an url<span style="font-family: 'Racing Sans One', cursive; font-size: .228rem;">-ito</span> machine. Become your <span style="color:#F4C418; font-size: .228rem;">Tía</span></p>
+    </div>
+
+    <main id="root" class="forum">
+      <form class="container" @submit.prevent="createUrl()">
+
+        <div class="item1">
+          <label for="url">url:</label>
+          <input v-model="url" name="url" id="url">
+          <div v-if="msg != null && !msg.startsWith('Alias')" class="item4">
+            <span id="error">error</span> {{msg}}
+          </div>
+        </div>
+
+        <div class="item2">
+          <label for="alias">alias:</label>
+          <input v-model="alias" name="alias" id="alias">
+          <div v-if="msg != null && msg.startsWith('Alias')" class="item4">
+            <span id="error">error</span> {{msg}}
+          </div>
+        </div>
+
+        <div class="item3">
+          <button id='btn' type="submit">
+            <img src="assets/btn.svg" alt="">
+          </button>
+          <button id='btn_mobile' type="submit">
+            <img src="assets/mobile_crt_btn.svg" alt="">
+          </button>
+        </div>
+        </form>
+        <div v-if="ali != null" class="item4">
+          <span id="success">newUrl</span> https://www.ito.sh/{{ali}}
+        </div>
+    </main>
+
+    <div id="footer">
+      created by <img src="assets/Group 9.svg" alt="omar">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="app.js"></script>
+  </div>
+</body>
+</html>

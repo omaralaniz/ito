@@ -1,7 +1,7 @@
-#ito.sh
-###an url-ito machine and a way to become your Tia
+# ito.sh
+### an url-ito machine and a way to become your Tia
 
-##Stack
+## Stack
 Node.js - Express
 MongoDB
 Elastic BeanStalk

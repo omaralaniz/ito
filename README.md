@@ -8,15 +8,13 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Want to become your Tia and call everything -ito, even your website!? Well, you came to the right place
     <br> 
 </p>
 
@@ -32,7 +30,7 @@
 
 ## 📟 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+A website dedicated to the shortening your URLs! You can either provide your own custom alias or if the alias is left blank it will randomly generate one for you. 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -77,6 +75,8 @@ The services I am uing are:
 
 <img src="public/assets/SystemDesign.svg">
 
+### **Errors**💀
+<img src="public/assets/system2.svg">
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@omaralaniz](https://github.com/omaralaniz) - Idea & Initial work

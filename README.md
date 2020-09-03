@@ -30,7 +30,7 @@
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 📟 About <a name = "about"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
 
@@ -56,19 +56,26 @@ Write about 1-2 paragraphs describing the purpose of your project.
 ❌ **if custom alias is taken it will warn you!**
 4) If user does not want to use a custom URL leave alias input blank and it will generate one for you!
 
-<img src="public/assets/Inked_alias_blank.jpg">
+<img src="public/assets/alias_blank.jpg">
 
-1) 
+1) The input for alias was left blank and it created a random alias for the user
+
+
+### **Full Run Through**
+<img src="public/assets/ito.gif">
 
 ## 🚀 Deployment <a name = "deployment"></a>
+I am utilizing AWS services for deployment and continous delivery 
+The services I am uing are:
 
-Add additional notes about how to deploy this on a live system.
+- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - Deployment
+- [AWS CodePipeline](https://aws.amazon.com/codepipeline/) - Continous Delivery
 
 
 
 ## 🏭 System Design <a name = "system_design"></a>
 
-
+<img src="public/assets/System Desgin.svg">
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@omaralaniz](https://github.com/omaralaniz) - Idea & Initial work

@@ -57,7 +57,14 @@ app.post('/url', async (req, res, next) => {
       url
     });
     const created = await urls.insert(newUrl);
-    res.json(created);
+
+    const data = {
+      alias: created.alias,
+      message: created.message
+    }
+    
+    res.json(data);
+
 
   } catch (error) {
     next(error);

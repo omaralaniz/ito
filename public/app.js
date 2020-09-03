@@ -36,9 +36,8 @@ const app = new Vue({
       }
 
 
-
-      console.log(this.alias);
       const {alias, message} = await response.json();
+      console.log(typeof(alias), typeof(message));
       this.msg = message;
       this.ali = alias;
     }

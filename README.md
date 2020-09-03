@@ -75,7 +75,8 @@ The services I am uing are:
 
 ## 🏭 System Design <a name = "system_design"></a>
 
-<img src="public/assets/System Desgin.svg">
+<img src="public/assets/SystemDesign.svg">
+
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@omaralaniz](https://github.com/omaralaniz) - Idea & Initial work

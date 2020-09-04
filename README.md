@@ -77,6 +77,7 @@ The services I am uing are:
 
 ### **Errors**💀
 <img src="public/assets/system2.svg">
+
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@omaralaniz](https://github.com/omaralaniz) - Idea & Initial work

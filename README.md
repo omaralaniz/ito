@@ -59,7 +59,7 @@ A website dedicated to the shortening your URLs! You can either provide your own
 1) The input for alias was left blank and it created a random alias for the user
 
 
-### **Full Run Through**
+### **Full VIDEO Run Through**
 <img src="public/assets/ito.gif">
 
 ## 🚀 Deployment <a name = "deployment"></a>
